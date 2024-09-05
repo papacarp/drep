@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:update-uri"
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "rationale": "CIP108:rationale"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "Mike Fullman - DRep",
+    "abstract": "My name is Mike Fullman, I'm one of the original Cardano Stakepool operators and founder of PoolTool.io.  I'm committed to the ecosystem and building a platform our grandchildren will use.",
+    "motivations": "As a DRep, my motivation is to guide the direction of Cardano toward real-world utility. I believe in focusing on practical applications and solutions that drive genuine adoption, rather than being distracted by short-term marketing tactics. My goal is to ensure that Cardano becomes a platform that people need to use because it provides solutions they cannot find elsewhere.",
+    "rationale": "The long-term success of Cardano lies in creating real utility that compels users to engage with the platform for practical, everyday needs. This approach will help Cardano sustain and grow, not just through speculation, but through the delivery of meaningful services that add value to users' lives.",
+    "paymentAddress": "addr1q8xqctkvngg7ftph3waqmqwmaks7d3athmcwr3eupx32rpqwhse7jpldnx5y0hg4j2wen85mfcc7aj3jfk26kfuhpm0st57xke",
+    "givenName": "Mike Fullman",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "",
+      "sha256": ""
+    },
+    "objectives": "As a DRep, I will leverage my technical expertise and community connections to advocate for projects and developments that advance Cardano’s ability to solve real-world problems. I will work to ensure that the chain remains scalable, efficient, and primed for adoption in industries where it can provide unmatched utility.",
+    "qualifications": "Founder of Pooltool.io, LOVE Stake Pool Operator",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "PoolTool.io",
+        "uri": "https://pooltool.io"
+      },
+      {
+        "@type": "Other",
+        "label": "PoolTool Twitter",
+        "uri": "https://x.com/Pooltoolio"
+      },
+    ],
+    "comment": "My name is Mike Fullman, I have been part of the Cardano ecosystem from the beginning as a Stakepool operator and the founder of PoolTool.io. I am deeply involved in the community and committed to helping shape Cardano into a platform that drives real-world usage and innovation.",
+    "externalUpdates": [
+      {
+        "title": "Github",
+        "uri": "https://github.com/drep"
+      }
+    ]
+  },
+  "authors": []
+}
