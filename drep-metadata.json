@@ -75,8 +75,8 @@
     "givenName": "Mike Fullman",
     "image": {
       "@type": "ImageObject",
-      "contentUrl": "",
-      "sha256": ""
+      "contentUrl": "https://raw.githubusercontent.com/papacarp/drep/main/mikeprofile.jpeg",
+      "sha256": "a08fd45162d11a8c5c497079be5a8e841e157b92d7ab31f7f1462aac57259426"
     },
     "objectives": "As a DRep, I will leverage my technical expertise and community connections to advocate for projects and developments that advance Cardano’s ability to solve real-world problems. I will work to ensure that the chain remains scalable, efficient, and primed for adoption in industries where it can provide unmatched utility.",
     "qualifications": "Founder of Pooltool.io, LOVE Stake Pool Operator",
